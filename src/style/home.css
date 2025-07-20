@@ -433,6 +433,7 @@
 }
 @media (max-width:420px) {
     .banniereContent{
+        margin-top: 200px;
         margin-left: 10px;
         width: 90%;
     }
@@ -459,9 +460,6 @@
         width: 90%;
         height: 40%;
     }
-
-
-
 .descripRight{
     height: 50%;
 }
