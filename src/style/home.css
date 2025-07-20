@@ -351,7 +351,7 @@
 }
 @media (max-width:760px) {
     .banniere{
-        height: 60vh;
+        height: 80vh;
     }
      .banniereContent{
         width: 80%;
@@ -379,22 +379,21 @@
     height: 110vh;
 }
 .descripContener{
+    
     width: 80%;
     flex-direction: column;
-    gap: 0px;
+    gap: px;
 }
 .descripLeft{
     width: 90%;
-    height: 60%;
+    height: 45%;
     margin-bottom: 0px;
 }
 
 
 .descripRight{
     width: 90%;
-    height: 40%;
-    gap: 55px;
-    background-color: #d8c307;
+    height: 45%;
 }
 .descripRight img{
     object-fit: cover;
@@ -454,7 +453,14 @@
     }
     .descripLeft{
         width: 90%;
+        height: 40%;
     }
+
+
+
+.descripRight{
+    height: 50%;
+}
     .pourquoiContentTop{
         width: 90%;
     }
