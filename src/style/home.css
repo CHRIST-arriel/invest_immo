@@ -350,6 +350,9 @@
 
 }
 @media (max-width:760px) {
+    .banniere{
+        height: 60vh;
+    }
      .banniereContent{
         width: 80%;
         margin-left: 40px;
