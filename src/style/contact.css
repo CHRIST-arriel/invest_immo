@@ -1,0 +1,99 @@
+.maniContact{
+    width: 100%;
+    padding-top: 70px;
+    background-color: rgb(255, 255, 255);
+}
+.contactContainer{
+    width: 100%;
+    padding: 30px 0;
+    align-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.formulaire{
+    width: 32%;
+}
+.formulaire .form{
+    width: 100%;
+    height: 300px;
+}
+.form div{
+    width: 100%;
+}
+input{
+    width: 90%;
+    padding: 7px 8px;
+    margin: 3px 0;
+}
+textarea{
+    width: 90%;
+    padding: 7px 9px;
+    height: 90px;
+    margin: 3px 0;
+}
+#soumettre{
+    width: 50%;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    background-color: #d8c307;
+    font-size: 15px ;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+.map{
+    width: 32%;
+    height: 300px;
+}
+.map div{
+    width: 100%;
+    height: 100%;
+}
+.contactLeft{
+    width: 32%;
+    height: 300px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #000000;
+}
+.contactBox{
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    align-content: center;display: flex;
+    justify-content: center;
+}
+.contactIcon{
+    width: 20%;
+    height: 100%;
+    font-size: 30px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.infoText{
+    width: 80%;
+}
+
+@media (max-width:767px) {
+    .contactContainer{
+        flex-direction: column-reverse;
+    }
+    .contactLeft{
+        width: 80%;
+    }
+    .map{
+        width: 80%;
+    }
+    .formulaire{
+        width: 80%;
+    }
+}

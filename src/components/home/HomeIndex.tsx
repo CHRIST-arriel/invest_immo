@@ -6,6 +6,7 @@ import Trans from'../../assets/trans.jpg'
 import Off from'../../assets/off.jpg'
 import Desc from'../../assets/desc.jpg'
 import Perso from'../../assets/perso.png'
+import { Link } from 'react-router-dom'
 
 
 function Home (){
@@ -28,12 +29,13 @@ function Home (){
 
                     </div>
                     <div className='boutons'>
-                        <button className='btn-service'>
-                            Nos services
-                        </button>
-                        <button className='btn-contact'>
+                        
+                            <Link to='/Service'> <button className='btn-service' >Nos services</button> </Link> 
+                            
+                        <Link to="/Contact"><button className='btn-contact'>
                             contactez-Nous
-                        </button>
+                        </button></Link>
+                        
 
                     </div>
                    
@@ -49,7 +51,10 @@ function Home (){
                         <p>
                             Chez Invest Plus Immo, nous avons une longue histoire de prestation de services exceptionnels de construction et d’ouvrages publics. Notre équipe dévouée s’engage dans l’innovation, la qualité et la satisfaction client, stimulant une croissance durable dans le secteur immobilier.
                         </p>
-                        <button className='btn-about'>Qui sommes-nous ?</button>
+                        <Link to="/About">
+                            <button className='btn-about'>Qui sommes-nous ?</button>
+                        </Link>
+                        
                     </div>
                     <div className='descripRight'>
                         <img src={Desc} alt="" />
@@ -126,7 +131,10 @@ function Home (){
                             </div>
                         </div>
                     </div>
-                    <button className='btn-service' id='btn-service'>Voir nos services</button>
+                    <Link to="/Service" className='lien'>
+                        <button className='btn-service' id='btn-service'>Voir nos services</button>
+                    </Link>
+                    
 
                 </div>
 

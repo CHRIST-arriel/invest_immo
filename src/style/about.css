@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+
+.aboutMain{
+    width: 100%;
+    padding-top: 50px;
+}
+.aboutMain h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.sectionTop{
+    margin: 50px 0;
+}
+.sectionTop h2{
+    text-align: center;
+}
+.sectionTopContent{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.sectionTopTexte{
+    width: 40%;
+}
+.sectionTopImage{
+    width: 40%;
+    height: 350px;
+    background-color: aqua;
+}
+.sectionTopImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/**-----------------------------------------------------*/
+.histoire{
+    margin: 50px 0;
+}
+.histoire h2{
+    text-align: center;
+}
+.histoireContent{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.histoireTexte{
+    width: 40%;
+}
+.histoireImage{
+    width: 40%;
+    height: 350px;
+    background-color: black;
+}
+.histoireImage img{
+    width: 100%;
+    height: 100%;
+}
+/*------------------------------------*/
+.vision{
+    margin: 50px 0;
+}
+.vision h2{
+    text-align: center;
+}
+.visionContent{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.visionTexte{
+    width: 40%;
+}
+.visionImage{
+    width: 40%;
+    height: 350px;
+    background-color: black;
+}
+.visionImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:750px) {
+    .sectionTopContent{
+        flex-direction: column;
+    }
+    .sectionTopTexte{
+        width: 80%;
+    }
+    .sectionTopImage{
+        width: 80%;
+    }
+    .visionContent{
+        flex-direction: column;
+    }
+    .visionTexte{
+        width: 80%;
+    }
+    .visionImage{
+        width: 80%;
+    }
+}
+@media (max-width:750px) {
+    
+    .sectionTopTexte{
+        width: 90%;
+    }
+    .sectionTopImage{
+        width: 90%;
+    }
+    .histoireContent{
+        flex-direction: column;
+    }
+    .histoireTexte{
+        width: 90%;
+    }
+    .histoireImage{
+        width: 90%;
+    }
+    
+    .visionTexte{
+        width: 90%;
+    }
+    .visionImage{
+        width: 90%;
+    }
+    .aboutMain h2{
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+}
